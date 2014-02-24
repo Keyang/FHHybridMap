@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+     <script type="text/javascript" src="cordova.js"></script>
+     <script type="text/javascript" src="js/cordova.plugin.fhmap.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/fhTile.js"></script>
+    <style type="text/css">
+      #map { height: 400px; }
+      
+    </style>
+
+</head>
+
+<body>
+hello world.
+
+<div id="map">
+  </div>
+
+</body>
+<script type="text/javascript">
+  document.addEventListener("deviceready",function(){
+    fhmap.setMapFile({
+      "fileName":"ireland.map"
+    },function(err){
+      if (err){
+        throw(err);
+      }
+     var map = L.map('map').setView([53.360387,-6.262307], 13);
+          L.fhMap({
+          maxZoom: 18
+        }).addTo(map);
+    });
+  });
+    
+
+    // var map = L.map('map').setView([53.360387,-6.262307], 13);
+    //       L.fhMap({
+    //       maxZoom: 18
+    //     }).addTo(map);
+     
+
+    </script>
+</html>
