@@ -17,10 +17,30 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/mapsforge-map-0.3.1-SNAPSHOT-jar-with-dependencies.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/mapsforge-map-0.3.0-jar-with-dependencies.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../mapsforge/Applications/Android/Samples/src" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/Applications/Android/AdvancedMapViewer/src" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-core/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-writer/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-writer/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/Applications/Android/Samples/src" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/Applications/Android/AdvancedMapViewer/src" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-writer/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-writer/src/test/java" />
+          <root url="file://$MODULE_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>

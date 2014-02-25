@@ -587,6 +587,7 @@ L.Mixin.Events.fire = L.Mixin.Events.fireEvent;
     mobile: mobile,
     mobileWebkit: mobile && webkit,
     mobileWebkit3d: mobile && webkit3d,
+    // mobileWebkit3d: false,
     mobileOpera: mobile && window.opera,
 
     touch: touch,
@@ -1044,6 +1045,7 @@ L.DomUtil = {
     // (same speed either way), Opera 12 doesn't support translate3d
 
     var is3d = L.Browser.webkit3d,
+    // var is3d=false,
         open = 'translate' + (is3d ? '3d' : '') + '(',
         close = (is3d ? ',0' : '') + ')';
 
@@ -1062,7 +1064,7 @@ L.DomUtil = {
 
     // jshint camelcase: false
     el._leaflet_pos = point;
-
+    disable3D=true;
     if (!disable3D && L.Browser.any3d) {
       el.style[L.DomUtil.TRANSFORM] =  L.DomUtil.getTranslateString(point);
     } else {
@@ -2943,8 +2945,9 @@ L.TileLayer = L.Class.extend({
     }
     // without this hack, tiles disappear after zoom on Chrome for Android
     // https://github.com/Leaflet/Leaflet/issues/2078
+    // But with this hack, it causes tiles un-alignment on hybrid apps --keyang
     if (L.Browser.mobileWebkit3d) {
-      tile.style.WebkitBackfaceVisibility = 'hidden';
+      // tile.style.WebkitBackfaceVisibility = 'hidden';
     }
     return tile;
   },

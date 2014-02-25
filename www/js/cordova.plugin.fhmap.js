@@ -1,28 +1,44 @@
 var fhmap=(function(module){
   module.setMapFile=setMapFile;
   module.getMapTile=getMapTile;
+  module.openNativeMap=openNativeMap;
 
   var service="FHMapPlugin";
   var actions={
     "setMapFile":"setMapFile",
-    "getMapTile":"getMapTile"
+    "getMapTile":"getMapTile",
+    "openNativeMap":"openNativeMap",
+    "config":"config",
+    "downloadMap":"downloadMap",
+    "mapExists":"mapExists",
+    "mapInfo":"mapInfo"
+  }
+  function config(param,cb){
+    _cordova(_cordovaParam(actions["config"],cb,[param.cacheSize]));
+  }
+  function downloadMap(param,cb){
+    _cordova(_cordovaParam(actions["downloadMap"],cb,[param.mapUrl,param.fileName]));
+  }
+  function mapExists(param,cb){
+    _cordova(_cordovaParam(actions["mapExists"],cb,[param.fileName]));
+  }
+  function mapInfo(param,cb){
+    _cordova(_cordovaParam(actions["mapInfo"],cb,[param.fileName]));
   }
   function setMapFile(param,cb){
-    var fileName=param.fileName;
-    var action=actions["setMapFile"];
-    var params=_cordovaParam(action,cb,[fileName]);
-    _cordova(params);
+    _cordova(_cordovaParam(actions["setMapFile"],cb,[param.fileName]));
   }
-
+  function openNativeMap(param,cb){
+    _cordova(_cordovaParam(actions["openNativeMap"],cb));
+  }
   function getMapTile(param,cb){
-    var params=_cordovaParam(actions["getMapTile"],cb,[param.x,param.y,param.zoom]);
-    _cordova(params);
+    _cordova(_cordovaParam(actions["getMapTile"],cb,[param.x,param.y,param.zoom]));
   }
   function _cordovaParam(action,cb,paramArr){
     return {
       "action":action,
       "cb":cb,
-      "paramArr":paramArr
+      "paramArr":paramArr || []
     }
   }
   function _cordova(params){

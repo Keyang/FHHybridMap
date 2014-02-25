@@ -1,6 +1,7 @@
 package com.feedhenry.kiergurney.map;
 
-import org.mapsforge.map.rendertheme.XmlRenderTheme;
+import org.mapsforge.android.maps.mapgenerator.JobTheme;
+
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -8,10 +9,11 @@ import java.io.InputStream;
 /**
  * Created by kxiang on 24/02/2014.
  */
-public class RenderTheme implements XmlRenderTheme {
+public class RenderTheme implements JobTheme {
     public static RenderTheme INSTANCE=new RenderTheme();
     private RenderTheme(){}
-    @Override
+
+
     public String getRelativePathPrefix() {
         return "/assets/osmarender/";
     }
@@ -22,5 +24,13 @@ public class RenderTheme implements XmlRenderTheme {
     public InputStream getRenderThemeAsStream()
     {
         return getClass().getResourceAsStream("/assets/osmarender/osmarender.xml");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof RenderTheme){
+            return true;
+        }
+        return false;
     }
 }

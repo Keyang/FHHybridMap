@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Web Console" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="performance" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d93c073f-3167-4e1e-b316-1aa45c9d158f" name="Default" comment="" />
@@ -60,7 +70,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java" line="18" class="com.feedhenry.kiergurney.FHMapPlugin" package="com.feedhenry.kiergurney">
+      <breakpoint url="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core/Tile.java" line="84" class="org.mapsforge.core.Tile" package="org.mapsforge.core">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -85,19 +95,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FHMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java">
+      <file leaf-file-name="FHMap.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FHMapPlugin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="335" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+            <state line="52" column="31" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.522" vertical-offset="519" max-vertical-offset="3810">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,38 +106,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FHMap.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java">
+      <file leaf-file-name="FHMapPlugin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.6919918" vertical-offset="1283" max-vertical-offset="1965">
+            <state line="104" column="24" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <file leaf-file-name="MapGeneratorJob.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/MapGeneratorJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="664" selection-end="664" vertical-scroll-proportion="-6.3333335" vertical-offset="238" max-vertical-offset="765">
+            <state line="113" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
+      <file leaf-file-name="Tile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core/Tile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="685" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="91" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
+      <file leaf-file-name="DependencyCache.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/DependencyCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="718" column="0" selection-start="25049" selection-end="25049" vertical-scroll-proportion="0.0" vertical-offset="10269" max-vertical-offset="14520">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LabelPlacement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/LabelPlacement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="705" column="0" selection-start="23964" selection-end="23964" vertical-scroll-proportion="0.0" vertical-offset="9939" max-vertical-offset="10815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/DatabaseRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="171" column="0" selection-start="5995" selection-end="5995" vertical-scroll-proportion="0.0" vertical-offset="1824" max-vertical-offset="5280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobParameters.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/JobParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="0" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderTheme.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/RenderTheme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="630">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,19 +190,38 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java" />
-        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java" />
         <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/MapsForgeTileProvider.java" />
-        <option value="$PROJECT_DIR$/assets/www/index.html" />
         <option value="$PROJECT_DIR$/res/xml/config.xml" />
         <option value="$PROJECT_DIR$/assets/www/config.xml" />
+        <option value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/MapView.java" />
+        <option value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/map/reader/QueryCalculations.java" />
+        <option value="$PROJECT_DIR$/assets/osmarender/osmarender.xml" />
+        <option value="$PROJECT_DIR$/assets/www/js/fhTile.js" />
+        <option value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/JobQueue.java" />
+        <option value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/FrameBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FrameBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/RenderJobQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/MapWorkerManager.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/MapWorker.java" />
+        <option value="$PROJECT_DIR$/assets/www/js/cordova.plugin.fhmap.js" />
+        <option value="$PROJECT_DIR$/android/src/main/res/layout/sample_my_view.xml" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/NativeMap.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/NativeMap.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/assets/www/index.html" />
+        <option value="$PROJECT_DIR$/assets/www/js/leaflet.js" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FileSystemTileCache.java" />
+        <option value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/FileSystemTileCache.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/RenderTheme.java" />
+        <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java" />
         <option value="$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="22" />
+    <option name="x" value="165" />
+    <option name="y" value="110" />
     <option name="width" value="1384" />
     <option name="height" value="878" />
   </component>
@@ -193,6 +251,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,24 +323,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -315,9 +356,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -338,13 +400,26 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="00093f097a576f" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android2.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/osmarender" />
+      <recent name="$PROJECT_DIR$/assets/osmarenderv2" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.feedhenry.kiergurney" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/feedhenry/kiergurney" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.android">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -375,19 +450,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -413,6 +475,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -510,20 +585,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1384" height="878" extended-state="6" />
-    <editor active="false" />
+    <frame x="165" y="110" width="1384" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20789866" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026317" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30526316" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -531,7 +607,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24664679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -552,100 +628,417 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java">
+    <entry file="jar://$PROJECT_DIR$/libs/mapsforge-map-0.3.0-jar-with-dependencies.jar!/org/mapsforge/android/maps/mapgenerator/databaserenderer/DatabaseRenderer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+        <state line="90" column="0" selection-start="5317" selection-end="5317" vertical-scroll-proportion="0.870317" vertical-offset="731" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
+    <entry file="jar://$PROJECT_DIR$/libs/mapsforge-map-0.3.0-jar-with-dependencies.jar!/org/mapsforge/android/maps/MapView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="45" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="480">
+        <state line="6" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/JobQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1350">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#2901#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2544#2561#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java">
+    <entry file="jar://$PROJECT_DIR$/libs/mapsforge-map-0.3.0-jar-with-dependencies.jar!/org/mapsforge/core/MercatorProjection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="48" selection-start="4763" selection-end="4763" vertical-scroll-proportion="0.0" vertical-offset="1471" max-vertical-offset="2235">
+        <state line="20" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java">
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core/MercatorProjection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="465">
+        <state line="113" column="25" selection-start="4125" selection-end="4125" vertical-scroll-proportion="0.0" vertical-offset="1295" max-vertical-offset="3090">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#7654#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/graphics/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="48" selection-start="4763" selection-end="4763" vertical-scroll-proportion="0.0" vertical-offset="1471" max-vertical-offset="2235">
+        <state line="232" column="0" selection-start="5977" selection-end="5977" vertical-scroll-proportion="0.39480874" vertical-offset="2981" max-vertical-offset="12915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/FrameBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="35" selection-start="5823" selection-end="5836" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2565">
+          <folding>
+            <element signature="e#0#6178#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="20" selection-start="6653" selection-end="6653" vertical-scroll-proportion="0.41530055" vertical-offset="2336" max-vertical-offset="5955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1127" column="11" selection-start="44403" selection-end="44403" vertical-scroll-proportion="0.0" vertical-offset="16571" max-vertical-offset="30330">
+          <folding>
+            <element signature="e#0#78692#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#18315#18323#0" expanded="false" />
+            <element signature="e#32099#32109#0" expanded="false" />
+            <element signature="e#57269#57270#0" expanded="false" />
+            <element signature="e#57305#57306#0" expanded="false" />
+            <element signature="e#57933#57934#0" expanded="false" />
+            <element signature="e#57963#57964#0" expanded="false" />
+            <element signature="e#59458#59459#0" expanded="false" />
+            <element signature="e#59493#59494#0" expanded="false" />
+            <element signature="e#63605#63606#0" expanded="false" />
+            <element signature="e#63643#63644#0" expanded="false" />
+            <element signature="e#65717#65718#0" expanded="false" />
+            <element signature="e#65749#65750#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/MapWorkerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="966" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="720">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/MapWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1245">
+          <folding>
+            <element signature="e#0#3015#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1987#1988#0" expanded="false" />
+            <element signature="e#2026#2027#0" expanded="false" />
+            <element signature="e#2794#2795#0" expanded="false" />
+            <element signature="e#2819#2820#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/AsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="18" selection-start="12173" selection-end="12173" vertical-scroll-proportion="0.518" vertical-offset="3551" max-vertical-offset="9600">
+          <folding>
+            <element signature="e#9193#9203#0" expanded="false" />
+            <element signature="e#11944#12279#0" expanded="false" />
+            <element signature="e#12268#12269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="670" column="16" selection-start="22528" selection-end="22528" vertical-scroll-proportion="0.0" vertical-offset="9033" max-vertical-offset="18900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3384" column="11" selection-start="159453" selection-end="159453" vertical-scroll-proportion="-0.6837782" vertical-offset="50463" max-vertical-offset="102795">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/www/cordova.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="621" column="57" selection-start="20291" selection-end="20291" vertical-scroll-proportion="0.33333334" vertical-offset="9161" max-vertical-offset="25755">
+        <state line="835" column="0" selection-start="26920" selection-end="26920" vertical-scroll-proportion="0.15151516" vertical-offset="12455" max-vertical-offset="25755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/www/js/cordova.plugin.fhmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="664" selection-end="664" vertical-scroll-proportion="-6.3333335" vertical-offset="238" max-vertical-offset="765">
+        <state line="39" column="40" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-16.8" vertical-offset="165" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="335" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+        <state line="645" column="49" selection-start="32266" selection-end="32266" vertical-scroll-proportion="0.45585215" vertical-offset="8253" max-vertical-offset="77865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="45" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.33264887" vertical-offset="63" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/NativeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="540">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/config.xml">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="878" column="17" selection-start="32059" selection-end="32059" vertical-scroll-proportion="0.602" vertical-offset="12434" max-vertical-offset="17370">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="685" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="15" column="11" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="514" selection-end="514" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/leaflet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9171" column="21" selection-start="228585" selection-end="228585" vertical-scroll-proportion="-17.2" vertical-offset="137135" max-vertical-offset="137655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/MapView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="734" column="33" selection-start="24234" selection-end="24234" vertical-scroll-proportion="0.0" vertical-offset="9519" max-vertical-offset="10995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/Applications/Android/AdvancedMapViewer/src/org/mapsforge/applications/android/advancedmapviewer/AdvancedMapViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="625" column="50" selection-start="23622" selection-end="23622" vertical-scroll-proportion="0.0" vertical-offset="7974" max-vertical-offset="9945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/provider/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1024" column="0" selection-start="38656" selection-end="38656" vertical-scroll-proportion="0.0" vertical-offset="14394" max-vertical-offset="86715">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state line="32" column="0" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="19" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.3326226" vertical-offset="1134" max-vertical-offset="3660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="42" selection-start="2642" selection-end="2642" vertical-scroll-proportion="-10.461538" vertical-offset="223" max-vertical-offset="5835">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3337" column="0" selection-start="126037" selection-end="126037" vertical-scroll-proportion="0.0" vertical-offset="48474" max-vertical-offset="272670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="0" selection-start="11233" selection-end="11233" vertical-scroll-proportion="-5.8461537" vertical-offset="4348" max-vertical-offset="15390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/FileSystemTileCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="78" selection-start="7380" selection-end="7380" vertical-scroll-proportion="0.24273859" vertical-offset="3033" max-vertical-offset="5115">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9029#9030#0" expanded="true" />
+            <element signature="e#9058#9059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/DebugSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.0" vertical-offset="755" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/RenderTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="630">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/JobParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2038" selection-end="2038" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/TileCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.33195022" vertical-offset="50" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/DependencyCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="718" column="0" selection-start="25049" selection-end="25049" vertical-scroll-proportion="0.0" vertical-offset="10269" max-vertical-offset="14520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/LabelPlacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="705" column="0" selection-start="23964" selection-end="23964" vertical-scroll-proportion="0.0" vertical-offset="9939" max-vertical-offset="10815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/databaserenderer/DatabaseRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="0" selection-start="5995" selection-end="5995" vertical-scroll-proportion="0.0" vertical-offset="1824" max-vertical-offset="5280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FileSystemTileCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="21" selection-start="7997" selection-end="7997" vertical-scroll-proportion="0.32" vertical-offset="3140" max-vertical-offset="5295">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10017#10018#0" expanded="true" />
+            <element signature="e#10053#10054#0" expanded="true" />
+            <element signature="e#10117#10118#0" expanded="true" />
+            <element signature="e#10155#10156#0" expanded="true" />
+            <element signature="e#11685#11686#0" expanded="true" />
+            <element signature="e#11729#11730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/android/os/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="25" selection-start="16637" selection-end="16637" vertical-scroll-proportion="0.332" vertical-offset="5684" max-vertical-offset="9330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-17/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="18" selection-start="14436" selection-end="14436" vertical-scroll-proportion="0.332" vertical-offset="4334" max-vertical-offset="6270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/map/reader/header/MapFileInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map-reader/src/main/java/org/mapsforge/core/BoundingBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="18" selection-start="4619" selection-end="4619" vertical-scroll-proportion="0.332" vertical-offset="1874" max-vertical-offset="2595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/js/fhTile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="165443" selection-end="165443" vertical-scroll-proportion="0.43722942" vertical-offset="23" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/FHMapPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="24" selection-start="3984" selection-end="3984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mapsforge/mapsforge-map/src/main/java/org/mapsforge/android/maps/mapgenerator/MapGeneratorJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0" vertical-offset="1269" max-vertical-offset="2070">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/feedhenry/kiergurney/map/FHMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.6919918" vertical-offset="1283" max-vertical-offset="1965">
-          <folding />
+        <state line="52" column="31" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.522" vertical-offset="519" max-vertical-offset="3810">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +1059,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -35,5 +35,11 @@ public class FHMap extends CordovaActivity
         super.loadUrl(Config.getStartUrl());
         //super.loadUrl("file:///android_asset/www/index.html")
     }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        FHMapInstance.destroy();
+    }
 }
 

@@ -1,11 +1,13 @@
 var fhmap=(function(module){
   module.setMapFile=setMapFile;
   module.getMapTile=getMapTile;
+  module.openNativeMap=openNativeMap;
 
   var service="FHMapPlugin";
   var actions={
     "setMapFile":"setMapFile",
-    "getMapTile":"getMapTile"
+    "getMapTile":"getMapTile",
+    "openNativeMap":"openNativeMap"
   }
   function setMapFile(param,cb){
     var fileName=param.fileName;
@@ -13,7 +15,10 @@ var fhmap=(function(module){
     var params=_cordovaParam(action,cb,[fileName]);
     _cordova(params);
   }
-
+  function openNativeMap(param,cb){
+    var params=_cordovaParam(actions["openNativeMap"],cb,[]);
+    _cordova(params);
+  }
   function getMapTile(param,cb){
     var params=_cordovaParam(actions["getMapTile"],cb,[param.x,param.y,param.zoom]);
     _cordova(params);
@@ -22,7 +27,7 @@ var fhmap=(function(module){
     return {
       "action":action,
       "cb":cb,
-      "paramArr":paramArr
+      "paramArr":paramArr || []
     }
   }
   function _cordova(params){

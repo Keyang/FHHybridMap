@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
+    <script src="http://10.52.2.6:8080/target/target-script-min.js#anonymous"></script>
      <script type="text/javascript" src="cordova.js"></script>
      <script type="text/javascript" src="js/cordova.plugin.fhmap.js"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
@@ -18,7 +19,7 @@ hello world.
 
 <div id="map">
   </div>
-
+<button id="nativeMapBtn">Open Native Map</button>
 </body>
 <script type="text/javascript">
   document.addEventListener("deviceready",function(){
@@ -30,9 +31,35 @@ hello world.
       }
      var map = L.map('map').setView([53.360387,-6.262307], 13);
           L.fhMap({
-          maxZoom: 18
+          maxZoom: 22,
+          detectRetina:true
         }).addTo(map);
-    });
+   // var canvasTiles = L.tileLayer.canvas({
+   //    async:true,
+   //    detectRetina:true,
+   //    maxZoom:22
+   //  });
+   //  canvasTiles.drawTile = function(canvas, tilePoint, zoom) {
+   //      var ctx = canvas.getContext('2d');
+   //      var self=this;
+   //      this._adjustTilePoint(tilePoint);
+   //      fhmap.getMapTile({
+   //        "x": tilePoint.x,
+   //        "y":tilePoint.y,
+   //        "zoom":tilePoint.z
+   //      },function(err,res){
+   //        var img=document.createElement("img");
+   //        img.src=res.base64Img;
+   //        img.onload=function(){
+   //        ctx.drawImage(img,0,0);
+   //        self.tileDrawn(canvas);
+   //        }
+
+   //      });
+   //  }
+   //  canvasTiles.addTo(map);
+
+  });
   });
     
 
@@ -40,7 +67,9 @@ hello world.
     //       L.fhMap({
     //       maxZoom: 18
     //     }).addTo(map);
-     
+     nativeMapBtn.onclick=function(){
+      fhmap.openNativeMap({},function(){});
+     }
 
     </script>
 </html>
